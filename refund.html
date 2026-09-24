@@ -26,12 +26,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DueDrop — Refund Policy</title>
 <style>
-  :root { color-scheme: light dark; --accent:#6750A4; }
-  body { font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif; max-width:760px; margin:0 auto; padding:24px 18px 60px; line-height:1.6; color:#1c1b1f; background:#fdf8ff; }
-  @media (prefers-color-scheme:dark){ body{ color:#e6e1e5; background:#1c1b1f; } a{ color:#d0bcff; } }
+  :root { color-scheme: light dark; --accent:#6750A4; --bg:#fdf8ff; --fg:#1c1b1f; --muted:#666; --line:#e3ddeb; }
+  @media (prefers-color-scheme:dark){ :root{ --accent:#d0bcff; --bg:#141218; --fg:#e6e1e5; --muted:#b0aab8; --line:#332f3a; } }
+  body { font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif; max-width:760px; margin:0 auto; padding:24px 18px 60px; line-height:1.6; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); }
   h1 { font-size:1.6rem; } h2 { font-size:1.05rem; color:var(--accent); margin-top:24px; }
-  @media (prefers-color-scheme:dark){ h2{ color:#d0bcff; } }
-  .date{ color:#666; font-size:.9rem; } footer{ margin-top:32px; font-size:.85rem; color:#666; }
+  .date{ color:var(--muted); font-size:.9rem; } footer{ margin-top:32px; font-size:.85rem; color:var(--muted); }
 </style>
 </head>
 <body>
